@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="儲存文字 : "
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/myWriteEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="輸入儲存文字" />
+
+        <Button
+            android:id="@+id/myBtIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="儲存至SD卡" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myLl_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/myTv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="讀取文字 : "
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/myBtOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="讀取SD卡文字" />
+
+        <TextView
+            android:id="@+id/myTvOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
